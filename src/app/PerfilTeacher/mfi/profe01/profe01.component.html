@@ -1,0 +1,276 @@
+<!-- Start Breadcrumbs -->
+<section class="breadcrumbs overlay">
+    <div class="container">
+        <div class="row">
+            <div class="col-12" ALIGN="right">
+                <!-- <h4>pagina de Nosotros</h4> -->
+                <ul class="bread-list">
+                    <li><a href="index.html">Inicio<i class="fa fa-angle-right"></i></a></li>
+                    <li><a [routerLink]="['/plana-Docente/docente-cargo/PRESIDENTE/']">Docentes<i class="fa fa-angle-right"></i></a></li>
+                   
+                    <li><a >Perfil Docente</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+<!--/ End Breadcrumbs -->
+
+<!-- Start Team Detail Area-->
+<section class="team-details section">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6  col-md-6 col-12">
+                <div class="member-detail">
+                    <div class="image">
+                        <img src="assets/images/docentesMFI/profe1.jpg" alt="#">
+                    </div>
+                    <div class="contact">
+                        <ul class="social">
+                            <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+                            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                            <li><a href="#" class="active"><i class="fa fa-twitter"></i></a></li>
+                            <li><a href="#"><i class="fa fa-paper-plane"></i></a></li>
+                            <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                            <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                        </ul>
+                        <ul class="address">
+                            <li><a href="mailto:rachel@websitename.com"><i
+                                        class="fa fa-envelope"></i>rachel@websitename.com</a></li>
+                            <li><i class="fa fa-phone"></i>+44 1236 456 8888</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="learnedu-sidebar">
+
+                    <div class="single-widget course">
+                        <h3><span>Grados - FICHA CTI VITAE</span></h3>
+                        <ul>
+                            <li><i class="fa fa-chevron-circle-right"></i><a
+                                    href="http://www.unsch.edu.pe/licenciamiento/REGISTRO%20SUNEDU/06548301.pdf"
+                                    target="_blank"> Grados - SUNEDU</a></li>
+                            <li><i class="fa fa-chevron-circle-right"></i><a
+                                    href="http://directorio.concytec.gob.pe/appDirectorioCTI/VerDatosInvestigador.do;jsessionid=801c221b6374d98c629658ffd65d?id_investigador=108428"
+                                    target="_blank">
+                                    FICHA CTI VITAE</a></li>
+                        </ul>
+                        <hr>
+                        <h3><span>Publicaciones</span></h3>
+                        <ul>
+                            <li><i class="fa fa-chevron-circle-right"></i><a
+                                    href="http://www.unsch.edu.pe/licenciamiento/REGISTRO%20SUNEDU/06548301.pdf"
+                                    target="_blank"> Colección Materiales de Apoyo a la Docencia #1: Demostración
+                                    Guiada</a></li>
+                            <li><i class="fa fa-chevron-circle-right"></i><a
+                                    href="http://directorio.concytec.gob.pe/appDirectorioCTI/VerDatosInvestigador.do;jsessionid=801c221b6374d98c629658ffd65d?id_investigador=108428"
+                                    target="_blank">
+                                    El reto de la Universidad peruana ante el siglo XXI: el desafío desde el aula.</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6 col-md-6 col-12">
+                <div  >
+                    
+                    <h2 >
+                        {{docente.nombre}} {{docente.apellido}} 
+                    </h2>
+                    <p > <strong> {{docente.cargo}}</strong></p>
+                    <hr>
+                    <p>Resumen</p>
+                    <p style="text-align: justify;">Máster Universitario en Dirección de Proyectos de Ocio, Cultura,
+                        Turismo,
+                        Deporte y Recreación (UNIVERSIDAD DE DEUSTO); Licenciado en Psicología con
+                        mención en Psicología Educacional (Universidad Nacional San Cristobal) y
+                        Licenciada en Psicología con mención en Psicología Educacional (Universidad Nacional San
+                        Cristobal)
+                        DOCENTE CONTRATADO - CONTRATADO
+                        Tiempo parcial por asignaturas (TPA)
+                        Departamento Académico de Psicología - Sección Psicología</p>
+                    <div class="skill-main">
+                        <!-- Single Skill -->
+                        <div class="single-progress">
+                            <h4>Comunicación</h4>
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar" style="width: 78%" aria-valuenow="25"
+                                    aria-valuemin="0" aria-valuemax="100"><span class="percent">78%</span></div>
+                            </div>
+                        </div>
+                        <!--/ End Single Skill -->
+                        <!-- Single Skill -->
+                        <div class="single-progress">
+                            <h4>Relación
+                            </h4>
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar" style="width: 80%" aria-valuenow="25"
+                                    aria-valuemin="0" aria-valuemax="100"><span class="percent">80%</span></div>
+                            </div>
+                        </div>
+                        <!--/ End Single Skill -->
+                        <!-- Single Skill -->
+                        <div class="single-progress">
+                            <h4>Trabajo creativo</h4>
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar" style="width: 90%" aria-valuenow="25"
+                                    aria-valuemin="0" aria-valuemax="100"><span class="percent">90%</span></div>
+                            </div>
+                        </div>
+                        <!--/ End Single Skill -->
+                        <!-- Single Skill -->
+                        <div class="single-progress">
+                            <h4>Logros</h4>
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar" style="width: 65%" aria-valuenow="25"
+                                    aria-valuemin="0" aria-valuemax="100"><span class="percent">65%</span></div>
+                            </div>
+                        </div>
+                        <!--/ End Single Skill -->
+                    </div>
+                    <div class="signature">
+                        <img src="assets/images/docentesMFI/firma.jpg" alt="#">
+                    </div>
+                    </div>
+                    <div class="learnedu-sidebar">
+                    <div class="single-widget course">
+
+                        <h4><span>Investigaciones</span></h4>
+                        <ul>
+                            <li><i class="fa fa-chevron-circle-right"></i><a
+                                    href="http://www.unsch.edu.pe/licenciamiento/REGISTRO%20SUNEDU/06548301.pdf"
+                                    target="_blank"> Colección Materiales de Apoyo a la Docencia #1: Demostración
+                                    Guiada</a></li>
+                            <li><i class="fa fa-chevron-circle-right"></i><a
+                                    href="http://directorio.concytec.gob.pe/appDirectorioCTI/VerDatosInvestigador.do;jsessionid=801c221b6374d98c629658ffd65d?id_investigador=108428"
+                                    target="_blank">
+                                    El reto de la Universidad peruana ante el siglo XXI: el desafío desde el aula.</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+
+    </div>
+    
+    <div class="container" >
+        <div class="row" >
+            <div class="col-lg-12 col-md-6 col-12" >
+                <div class="learnedu-sidebar">
+                    <div class="single-widget course">
+                        <h4>Docencia en la UNSCH (últimos 2 años)</h4>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <div class="container" >
+        <div class="row" >
+            <div class="col-lg-6 col-md-6 col-12">
+
+                <div class="learnedu-sidebar" >
+
+                    <div class="single-widget course" >
+                        <h3><span>Pregrado</span></h3>
+                        <h6>Facultad de Psicología</h6>
+                        <div>
+
+                            <p><strong>1PSG04 - PSICOLOGÍA Y DESARROLLO INTEGRAL</strong></p>
+                            <p>Semestre 2019</p>
+                            <ul>
+                                <li>2019-1</li>
+                                <li>2019-2</li>
+                            </ul>
+                            <p>Semestre 2018</p>
+                            <ul>
+                                <li>2018-1</li>
+                                <li>2018-2</li>
+                            </ul>
+
+
+                        </div>
+                    </div>
+                    <div class="single-widget course">
+
+
+
+
+                        <p><strong>1PSG04 - PSICOLOGÍA Y DESARROLLO INTEGRAL</strong></p>
+                        <p>Semestre 2019</p>
+                        <ul>
+                            <li>2019-1</li>
+                            <li>2019-2</li>
+                        </ul>
+                        <p>Semestre 2018</p>
+                        <ul>
+                            <li>2018-1</li>
+                            <li>2018-2</li>
+                        </ul>
+
+
+
+
+
+                    </div>
+
+                </div>
+
+            </div>
+            <div class="col-lg-6 col-md-6 col-12">
+
+                <div class="learnedu-sidebar">
+
+                    <div class="single-widget course">
+                        <h3><span>Posgrado</span></h3>
+                        <h6>Facultad de Psicología</h6>
+                        <div>
+
+                            <p><strong>1PSG04 - PSICOLOGÍA Y DESARROLLO INTEGRAL</strong></p>
+                            <p>Semestre 2019</p>
+                            <ul>
+                                <li>2019-1</li>
+                                <li>2019-2</li>
+                            </ul>
+                            <p>Semestre 2018</p>
+                            <ul>
+                                <li>2018-1</li>
+                                <li>2018-2</li>
+                            </ul>
+
+
+                        </div>
+                    </div>
+                    <div class="single-widget course">
+
+
+
+
+                        <p><strong>1PSG04 - PSICOLOGÍA Y DESARROLLO INTEGRAL</strong></p>
+                        <p>Semestre 2019</p>
+                        <ul>
+                            <li>2019-1</li>
+                            <li>2019-2</li>
+                        </ul>
+                        <p>Semestre 2018</p>
+                        <ul>
+                            <li>2018-1</li>
+                            <li>2018-2</li>
+                        </ul>
+
+
+
+
+
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+</section>
+<!--/ End Team Detail Area-->

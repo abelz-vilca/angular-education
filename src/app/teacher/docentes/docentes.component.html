@@ -1,0 +1,82 @@
+<section class="breadcrumbs overlay">
+
+    <div class="container">
+        <div class="row">
+            <div class="col-12" ALIGN="right">
+                
+                <ul class="bread-list">
+                    <li><a href="index.html">Inicio<i class="fa fa-angle-right"></i></a></li>
+                    <li><a class="active">Docentes</a></li>
+
+                </ul>
+            </div>
+        </div>
+    </div>
+
+</section>
+
+
+<section class="events single section">
+
+    <div class="container">
+
+        <div class="row">
+            <div class="col">
+
+
+
+                <div class="single-widget categories">
+                    <h6>Programas de Estudio</h6>
+                    <div class="grid">
+                        <ul *ngFor="let iteme of especialidades">
+                            <hr>
+                            <li><i class="fa fa-chevron-right"></i>
+                                <a [routerLink]="['/prueba/programas-estudio/',iteme.id]"> {{iteme.nombre}} </a>
+                            </li>
+                        </ul>
+                        
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+<section class="team section">
+    <div class="container">
+        <div class="section-title">
+            <h2>Plana Docente</h2>
+
+        </div>
+        <div class="row">
+            <div class="col">
+                <div class="grid">
+                    <div *ngFor="let item of docentess">
+
+                        <div class="single-team ">
+
+                            <img src="/assets/images/team/equipo1.jpg" alt="#">
+                            <div class="team-hover">
+                                <h4>{{item.nombre}}<span>{{item.apellido}} </span></h4>
+                                <p>{{item.cargo}}</p>
+                                <p>{{item.especialidad.nombre}}</p>
+                                <ul class="social">
+                                    <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                                    <li> <button type="button" class="btn btn-outline-warning btn-sm"
+                                            [routerLink]="['/Docente-Matemática-Física-e-Informática',item.id]">Ver
+                                            mas</button>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+</section>
+</section>
+
+

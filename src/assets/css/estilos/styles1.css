@@ -1,0 +1,71 @@
+.mision{
+	width: auto;
+}
+.mision h3{
+/* 
+	background-color:#979fa3;
+	color: rgb(255, 255, 255); */
+	/* border: rgb(87, 14, 14) 2px double; */
+	/* border: red 5px double; */
+	/* border: white 8px inset; */
+	/* border: white 8px outset;*/
+	/* width: auto; */
+	text-align: left;
+	
+	/* border-radius:20px;  */
+	
+}
+.mision h2{
+	text-align: right;
+}
+.mision p {
+text-align: justify;
+	padding: 3px 10px;
+  border: PowderBlue 5px dashed;
+  border-top-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+.hechos h1 {
+	text-align: justify;
+		
+	  /* border: PowderBlue 5px dashed; */
+	  text-align: center;
+	  /* border-top-left-radius: 20px;
+	  border-bottom-right-radius: 20px; */
+	  border-bottom: rgb(255, 255, 255) 5px double;
+	  color: rgb(255, 255, 255);
+	}
+	
+.docente  {
+	
+	padding: 2px 1px;
+	border: PowderBlue 2px solid;
+	border-radius: 10px;
+	background-color:#cedae0;
+	  }
+
+.docente li{
+		color: #641c12;
+		
+	  }
+.docente i{
+		color: #37608f;
+	  }
+.docente h6 {
+		color: #094757;
+	  }
+	  
+.grid{ 
+		display: grid;
+		grid-template-columns: repeat(4,1fr);
+		grid-gap: 20px 10px;
+		margin: auto;
+	 } 
+	
+.grid1{ 
+		display: grid;
+		grid-template-columns: repeat(1,1fr);
+		grid-gap: 20px 10px;
+		margin: auto;
+	 } 
+

@@ -1,0 +1,209 @@
+<!-- Header -->
+<header class="header">
+	<!-- Topbar -->
+	<div class="topbar">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-7 col-12">
+					<!-- Contact -->
+					<ul class="content">
+						<!-- <li><i class="fa fa-phone fa-lg"></i>966148669</li> -->
+						<li><i class="fa fa-book fa-lg "></i><a href="http://biblioteca.unsch.edu.pe/" target="_blank">Bliblioteca-UNSCH</a></li> 
+						<li><a href="https://elibro.net/es/lc/unsch/login_usuario/" target="_blank"  ><img src="/assets/images/e-libro.png"  width="50px" height="50px" backgroun >-UNSCH</a></li>
+						<!-- <li><i class="fa fa-clock-o"></i>Abierto: 08:00am - 4:00pm</li>0-->
+						<li><i class="fa fa-user fa-lg "></i><a href="https://sima.unsch.edu.pe/index/login"
+								target="_blank">SIMA-UNSCH</a></li>
+					</ul>
+					<!-- End Contact -->
+				</div>
+				<div class="col-lg-5 col-12">
+					<!-- Social -->
+					<ul class="social">
+						<li><a href="#"><i class="fa fa-twitter fa-lg " title="twitter"></i></a></li>
+						<li><a href="#"><i class="fa fa-facebook fa-lg ">acebook</i></a></li>
+						<li><a href="#"><i class="fa fa-google-plus fa-lg " ></i></a></li>
+
+						<li><a href="#"><i class="fa fa-youtube fa-lg" ></i></a></li>
+						
+						<li><a href="https://www.youtube.com/watch?v=J6lRRG0E1HI&ab_channel=EDUCATV" target="_blank"><button  type="button" class="btn btn-primary btn-sm" >INTRANET</button></a></li>
+					</ul>
+					<!-- End Social -->
+
+				</div>
+				<!-- <div class="col-lg-2 col-12">
+					<button type="button" class="btn btn-primary btn-sm">Small button</button>
+				</div> -->
+			</div>
+
+		
+		</div>
+	</div>
+	<!-- End Topbar -->
+	<!-- Header Inner -->
+
+	<div class="header-inner">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-4 col-md-3 col-12">
+					<div class="logo">
+						<a href="index.html"><img src="assets/images/logo1.png" alt="#"></a>
+						<h6>
+							<span>
+								<p>
+									PE Educacion Secundaria
+								</p>
+							</span>
+						</h6>
+					</div>
+					<div class="mobile-menu"></div>
+				</div>
+				<div class="col-lg-8 col-md-9 col-12">
+					<!-- Header Widget -->
+					<div class="header-widget">
+						<div class="single-widget">
+							<i class="fa fa-phone"></i>
+							<h4>llamar ahora<span>(+51) 966 148 669</span></h4>
+						</div>
+						<div class="single-widget">
+							<i class="fa fa-envelope-o"></i>
+							<h4>enviar mensaje<a
+									href="mailto:ep.secundaria@unsch.edu.pe"><span>ep.secundaria@unsch.edu.pe</span></a>
+							</h4>
+						</div>
+						<div class="single-widget">
+							<i class="fa fa-map-marker"></i>
+							<h4>Nuestra Ubicacion<span>Av universitaria S/N </span></h4>
+						</div>
+					</div>
+					<!--/ End Header Widget -->
+				</div>
+
+
+			</div>
+		</div>
+	</div>
+	<!--/ End Header Inner -->
+	<!-- Header Menu -->
+	<div class="header-menu">
+		<div class="container">
+			<div class="row">
+				<div class="col-12">
+					<nav class="navbar navbar-default">
+						<div class="navbar-collapse">
+							<!-- Main Menu -->
+							<ul id="nav" class="nav menu navbar-nav">
+								<!-- <li class="active"><a href="index.html">Inicio<i class="fa fa-chevron-down"></i></a> -->
+								<li class="active"><a href="index.html">Inicio<i class="fa fa-home"></i></a>
+									<!-- <ul class="dropdown">
+										<li><a href="index.html">Página principal por defecto</a></li>
+										<li><a href="index2.html">Página principal animación</a></li>
+									</ul> -->
+								</li>
+								<li><a >Quienes somos<i class="fa fa-chevron-down"></i></a>
+									<ul class="dropdown">
+										<li><a (click)="openmision();">Misión y Visión</a></li>
+										<li><a (click)="openabout();">Sobre Nosotros</a></li>
+										<li><a [routerLink]="['/plana-Docente/docente-cargo/PRESIDENTE/']">Docentes</a></li>
+										
+										
+											<!-- <li><a (click)="Testimonios();">Testimonios</a></li>-->
+											<li><a (click)="openresena();">Reseña Histórica</a></li>
+									</ul>
+								</li>
+								<li><a >Programas<i class="fa fa-chevron-down"></i></a>
+									<ul class="dropdown">
+
+										<!-- <li><a  (click)="openpemfi();" >Programa de estudios de Matemática, Física e
+											Informática</a></li> -->
+											<!-- [routerLink]="['/user/bob']"  //para hacer link de ptra manera--> 
+											<!-- href="/programa-Matemática-Física-e-Informática" -->
+											<li><a [routerLink]="['/programa-Matemática-Física-e-Informática']">Programa de estudios de Matemática, Física e
+												Informática</a></li>
+										<li><a (click)="openpeile();">Programa de estudios de Inglés y Lengua
+												Española</a></li>
+										<li><a (click)="openpecsfmt();">Programa de estudios de Ciencias Sociales y
+												Filosofía con mención en Turismo</a></li>
+										<li><a (click)="openpelelmc();">Programa de estudios de Lengua Española y
+												Literatura con mención en Comunicación</a></li>
+
+									</ul>
+								</li>
+								<li><a >Información Académica<i class="fa fa-chevron-down"></i></a>
+									<ul class="dropdown">
+										<li><a>Bliblioteca Virtual</a>
+											<ul class="dropdown submenu">
+												<li><a href="http://biblioteca.unsch.edu.pe/cgi-bin/koha/opac-main.pl"
+														target="_blank">Sitema de Biblioteca UNSCH</a>
+												</li>
+												<li><a href="https://elibro.net/es/lc/unsch/login_usuario/"
+														target="_blank">eLibro UNSCH</a></li>
+
+											</ul>
+										</li>
+										<li><a (click)="opentramitedoc();">Trámites Academicos</a></li>
+										<li><a (click)="opentrabajoestudiante();">Repositorio de trabajos de
+												estudiantes</a></li>
+
+									</ul>
+								</li>
+
+								<li><a>Eventos<i class="fa fa-chevron-down"></i></a>
+									<ul class="dropdown">
+									
+										<!-- <li><a (click)="opentesis();">Sustenaciones de Tesis</a></li> -->
+										<li><a href="/avisos">Sustenaciones de Tesis</a></li>
+										
+										<li><a (click)="openabout();">Revistas institucionales</a></li>
+										<li><a >Responsabilidad Social Docentes<i
+													class="fa fa-angle-right"></i></a>
+											<ul class="dropdown submenu">
+												<li><a (click)="openRSDmfi();">PE de Matemática, Física e
+														Informática</a>
+												</li>
+												<li><a (click)="openRSDile();">PE de Inglés y Lengua Española</a></li>
+												<li><a (click)="openRSDcsf();">PE Ciencias Sociales y Filosofía con
+														mención
+														en Turismo</a></li>
+												<li><a (click)="openRSDlel();">PE de Lengua Española y Literatura con
+														mención en Comunicación</a></li>
+											</ul>
+										</li>
+										<!-- <li><a >Responsabilidad Social Alumnos<i
+													class="fa fa-angle-right"></i></a>
+											<ul class="dropdown submenu">
+												<li><a (click)="openile();">PE de Matemática, Física e Informática</a>
+												</li>
+												<li><a (click)="openile();">PE de Inglés y Lengua Española</a></li>
+												<li><a (click)="opencsf();">PE Ciencias Sociales y Filosofía con mención
+														en Turismo</a></li>
+												<li><a (click)="openlel();">PE de Lengua Española y Literatura con
+														mención en Comunicación</a></li>
+											</ul>
+										</li> -->
+
+									</ul>
+								</li>
+
+								<li><a (click)="opencontacto();">Contactos</a></li>
+
+							</ul>
+							<!-- End Main Menu -->
+							<!-- button -->
+							<!-- <div class="button">
+								<a href="contact.html" class="btn"><i class="fa fa-pencil"></i>Aplicar nuevo</a>
+							</div> -->
+							<!--/ End Button -->
+							<!-- <form class="form-inline my-2 my-lg-3">
+								<input class="form-control mr-sm-2" type="search" placeholder="Buscar" aria-label="Search">
+								<button class="btn btn-outline-info my-2 my-sm-0" type="submit">Buscar</button>
+							  </form> -->
+						</div>
+					</nav>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!--/ End Header Menu -->
+
+</header>
+<!-- End Header -->
